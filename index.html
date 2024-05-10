@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Paradigma Chat</title>
+    
+    <link rel="stylesheet" href="./index.css">
+
+</head>
+
+<body>
+    <div id="splash-screen">
+        <img src="/imgs/verde.png" alt="Logo">
+        <div id="system-info">
+            <p>Loading system information...</p>
+            <p>Initializing components...</p>
+            <p>Establishing connections...</p>
+        </div>
+    </div>
+
+    <div id="chat-container" style="display: none;">
+        <div id="message-input-container">
+            <input type="text" id="message-input" placeholder="Digite sua mensagem...">
+            <button id="send-button">Enviar</button>
+        </div>
+    </div>
+
+    <audio id="keyboard-sound" src="/sounds/teclado.mp3"></audio>
+    <script src="./index.js"></script>
+</body>
+
+</html>
+
